@@ -116,7 +116,7 @@ elseif s:configuration.menu_selection_background ==# 'red'
 endif
 highlight! link WildMenu PmenuSel
 call sonokai#highlight('PmenuThumb', s:palette.none, s:palette.grey)
-call sonokai#highlight('NormalFloat', s:palette.fg, s:palette.bg2)
+call sonokai#highlight('NormalFloat', s:palette.fg, s:palette.bg_dim)
 call sonokai#highlight('FloatBorder', s:palette.grey, s:palette.bg2)
 call sonokai#highlight('Question', s:palette.yellow, s:palette.none)
 if s:configuration.spell_foreground ==# 'none'
